@@ -9,7 +9,7 @@ public class DBUtility {
     private final String DB_SCHEMA = "gym";
     private final String DB_URL = "jdbc:mysql://localhost:3306/" + DB_SCHEMA;
     private final String DB_USERNAME = "Mentoring";
-    private final String DB_PASSWORD = "Denver2021#";
+    private final String DB_PASSWORD = "root";
     private Connection connection = null;
     private Statement statement = null;
 
